@@ -15,6 +15,7 @@ import clg.serviceInterface.ServiceInterface;
 public class AfterUpdate2 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		//printing response of jsp page
 		System.out.println(request.getParameter("name"));
 		UserInformation u1 = new UserInformation();
 		int id=Integer.parseInt(request.getParameter("id"));
